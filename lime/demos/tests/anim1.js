@@ -37,7 +37,7 @@ test.start = function() {
 	menuscene.appendChild(layer);
 
 
-	var sprite = new lime.Sprite().setFill(100,0,0).setSize(50, 50).setRenderer(lime.Renderer.CANVAS);
+	var sprite = new lime.Sprite().setFill(100,0,0).setSize(70, 50).setRenderer(lime.Renderer.CANVAS);
 	layer.appendChild(sprite);
 
 	var anim = new lime.animation.Sequence(new lime.animation.Spawn(
